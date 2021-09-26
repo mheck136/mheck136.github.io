@@ -1,7 +1,7 @@
 baseURL: "https://example.org/"
 languageCode: "en-us"
 title: "mheck136"
-theme: "PaperMod"
+theme: "github.com/adityatelange/hugo-PaperMod"
 params:
   homeInfoParams:
     Title: Welcome to my blog!
@@ -18,3 +18,6 @@ params:
       url: "https://github.com/mheck136"
     - name: stackoverflow
       url: "https://stackoverflow.com/users/story/2371145"
+module:
+  imports:
+    - path: github.com/adityatelange/hugo-PaperMod
